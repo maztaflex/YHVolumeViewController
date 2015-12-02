@@ -15,6 +15,11 @@
 		AC8432531C0E7E32008B156E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8432511C0E7E32008B156E /* LaunchScreen.storyboard */; };
 		AC84325E1C0E7E32008B156E /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC84325D1C0E7E32008B156E /* DemoTests.m */; };
 		AC8432691C0E7E32008B156E /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8432681C0E7E32008B156E /* DemoUITests.m */; };
+		AC84327F1C0E870A008B156E /* YHVolumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC84327A1C0E870A008B156E /* YHVolumeCell.m */; };
+		AC8432801C0E870A008B156E /* YHVolumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC84327B1C0E870A008B156E /* YHVolumeCell.xib */; };
+		AC8432811C0E870A008B156E /* YHVolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC84327D1C0E870A008B156E /* YHVolumeViewController.m */; };
+		AC8432821C0E870A008B156E /* YHVolumeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC84327E1C0E870A008B156E /* YHVolumeViewController.xib */; };
+		AC8432851C0E873B008B156E /* sampleVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AC8432841C0E873B008B156E /* sampleVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		AC8432641C0E7E32008B156E /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8432681C0E7E32008B156E /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		AC84326A1C0E7E32008B156E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8432791C0E870A008B156E /* YHVolumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHVolumeCell.h; sourceTree = "<group>"; };
+		AC84327A1C0E870A008B156E /* YHVolumeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHVolumeCell.m; sourceTree = "<group>"; };
+		AC84327B1C0E870A008B156E /* YHVolumeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHVolumeCell.xib; sourceTree = "<group>"; };
+		AC84327C1C0E870A008B156E /* YHVolumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHVolumeViewController.h; sourceTree = "<group>"; };
+		AC84327D1C0E870A008B156E /* YHVolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHVolumeViewController.m; sourceTree = "<group>"; };
+		AC84327E1C0E870A008B156E /* YHVolumeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHVolumeViewController.xib; sourceTree = "<group>"; };
+		AC8432841C0E873B008B156E /* sampleVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,8 @@
 		AC8432421C0E7E32008B156E /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AC8432831C0E873B008B156E /* Resource */,
+				AC8432781C0E870A008B156E /* Source */,
 				AC8432461C0E7E32008B156E /* AppDelegate.h */,
 				AC8432471C0E7E32008B156E /* AppDelegate.m */,
 				AC8432491C0E7E32008B156E /* ViewController.h */,
@@ -138,6 +152,28 @@
 				AC84326A1C0E7E32008B156E /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		AC8432781C0E870A008B156E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AC8432791C0E870A008B156E /* YHVolumeCell.h */,
+				AC84327A1C0E870A008B156E /* YHVolumeCell.m */,
+				AC84327B1C0E870A008B156E /* YHVolumeCell.xib */,
+				AC84327C1C0E870A008B156E /* YHVolumeViewController.h */,
+				AC84327D1C0E870A008B156E /* YHVolumeViewController.m */,
+				AC84327E1C0E870A008B156E /* YHVolumeViewController.xib */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		AC8432831C0E873B008B156E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AC8432841C0E873B008B156E /* sampleVideo.mp4 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +281,10 @@
 			files = (
 				AC8432531C0E7E32008B156E /* LaunchScreen.storyboard in Resources */,
 				AC8432501C0E7E32008B156E /* Assets.xcassets in Resources */,
+				AC8432801C0E870A008B156E /* YHVolumeCell.xib in Resources */,
+				AC8432851C0E873B008B156E /* sampleVideo.mp4 in Resources */,
 				AC84324E1C0E7E32008B156E /* Main.storyboard in Resources */,
+				AC8432821C0E870A008B156E /* YHVolumeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +311,8 @@
 			files = (
 				AC84324B1C0E7E32008B156E /* ViewController.m in Sources */,
 				AC8432481C0E7E32008B156E /* AppDelegate.m in Sources */,
+				AC84327F1C0E870A008B156E /* YHVolumeCell.m in Sources */,
+				AC8432811C0E870A008B156E /* YHVolumeViewController.m in Sources */,
 				AC8432451C0E7E32008B156E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -400,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
