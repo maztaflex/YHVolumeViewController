@@ -51,8 +51,7 @@ import "YHVolumeViewController.h"
 }
 ```
 ## Contact
-If you find bug or have good idea, please pull reqeust me :
-e-mail : maztaflex@nate.com
+If you find bug or have good idea, please pull reqeust me : maztaflex@nate.com
 
 ## License
 YHViewController is available under the MIT license. See the LICENSE file for more info.
