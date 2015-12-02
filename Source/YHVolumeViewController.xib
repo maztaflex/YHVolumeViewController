@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YHVolumeViewController">
+            <connections>
+                <outlet property="alcLeadingOfVolumeIndicatorList" destination="mNj-hB-aXK" id="7zs-Kk-rfv"/>
+                <outlet property="alcTrailingOfVolumeIndicatorList" destination="vFB-wM-EeO" id="2Ad-QD-veN"/>
+                <outlet property="ivOpaqueBackground" destination="gL2-Hp-zB4" id="s2k-sP-8Es"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="volumeContainer" destination="PAX-ih-hMs" id="lCf-Yu-aAi"/>
+                <outlet property="volumeIndicatorList" destination="duS-DX-nZt" id="pU9-2k-TPm"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="18"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PAX-ih-hMs" userLabel="Volume Container">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="18"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gL2-Hp-zB4" userLabel="Opaque Backgound">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="18"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="duS-DX-nZt">
+                            <rect key="frame" x="1" y="0.0" width="412" height="18"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="1" id="DOw-lc-7bH">
+                                <size key="itemSize" width="50" height="15"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="1" minY="0.0" maxX="1" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="yQ9-6g-QuT"/>
+                                <outlet property="delegate" destination="-1" id="cgH-E8-yA3"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="gL2-Hp-zB4" firstAttribute="leading" secondItem="PAX-ih-hMs" secondAttribute="leading" id="8Qg-T9-sp0"/>
+                        <constraint firstItem="gL2-Hp-zB4" firstAttribute="top" secondItem="PAX-ih-hMs" secondAttribute="top" id="8V3-j3-TqT"/>
+                        <constraint firstItem="duS-DX-nZt" firstAttribute="top" secondItem="PAX-ih-hMs" secondAttribute="top" id="BXU-1g-Zbq"/>
+                        <constraint firstAttribute="trailing" secondItem="gL2-Hp-zB4" secondAttribute="trailing" id="Dyl-nD-xgp"/>
+                        <constraint firstAttribute="bottom" secondItem="duS-DX-nZt" secondAttribute="bottom" id="PRK-fK-mwq"/>
+                        <constraint firstItem="duS-DX-nZt" firstAttribute="leading" secondItem="PAX-ih-hMs" secondAttribute="leading" constant="1" id="mNj-hB-aXK"/>
+                        <constraint firstAttribute="trailing" secondItem="duS-DX-nZt" secondAttribute="trailing" constant="1" id="vFB-wM-EeO"/>
+                        <constraint firstAttribute="bottom" secondItem="gL2-Hp-zB4" secondAttribute="bottom" id="wvh-ES-UuD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="PAX-ih-hMs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CXV-E1-Cek"/>
+                <constraint firstItem="PAX-ih-hMs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Cim-Jd-pXh"/>
+                <constraint firstAttribute="bottom" secondItem="PAX-ih-hMs" secondAttribute="bottom" id="Le5-Pd-4Sy"/>
+                <constraint firstAttribute="trailing" secondItem="PAX-ih-hMs" secondAttribute="trailing" id="ec8-rO-ior"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="450" y="208"/>
+        </view>
+    </objects>
+</document>
