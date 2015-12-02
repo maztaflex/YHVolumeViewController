@@ -17,8 +17,9 @@ This is first time that I made it
 - ARC
 
 ## Installation
+```Objective-C
 import "YHVolumeViewController.h"
-
+```
 
 ## Usage
 #### Default Layout 
