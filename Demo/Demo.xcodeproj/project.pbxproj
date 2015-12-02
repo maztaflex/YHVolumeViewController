@@ -19,7 +19,7 @@
 		AC8432801C0E870A008B156E /* YHVolumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC84327B1C0E870A008B156E /* YHVolumeCell.xib */; };
 		AC8432811C0E870A008B156E /* YHVolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC84327D1C0E870A008B156E /* YHVolumeViewController.m */; };
 		AC8432821C0E870A008B156E /* YHVolumeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC84327E1C0E870A008B156E /* YHVolumeViewController.xib */; };
-		AC8432851C0E873B008B156E /* sampleVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AC8432841C0E873B008B156E /* sampleVideo.mp4 */; };
+		AC8432871C0E9A49008B156E /* Girls' GenerationTeaser.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AC8432861C0E9A49008B156E /* Girls' GenerationTeaser.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		AC84327C1C0E870A008B156E /* YHVolumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHVolumeViewController.h; sourceTree = "<group>"; };
 		AC84327D1C0E870A008B156E /* YHVolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHVolumeViewController.m; sourceTree = "<group>"; };
 		AC84327E1C0E870A008B156E /* YHVolumeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHVolumeViewController.xib; sourceTree = "<group>"; };
-		AC8432841C0E873B008B156E /* sampleVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleVideo.mp4; sourceTree = "<group>"; };
+		AC8432861C0E9A49008B156E /* Girls' GenerationTeaser.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Girls' GenerationTeaser.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 		AC8432831C0E873B008B156E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				AC8432841C0E873B008B156E /* sampleVideo.mp4 */,
+				AC8432861C0E9A49008B156E /* Girls' GenerationTeaser.mp4 */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -280,9 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8432531C0E7E32008B156E /* LaunchScreen.storyboard in Resources */,
+				AC8432871C0E9A49008B156E /* Girls' GenerationTeaser.mp4 in Resources */,
 				AC8432501C0E7E32008B156E /* Assets.xcassets in Resources */,
 				AC8432801C0E870A008B156E /* YHVolumeCell.xib in Resources */,
-				AC8432851C0E873B008B156E /* sampleVideo.mp4 in Resources */,
 				AC84324E1C0E7E32008B156E /* Main.storyboard in Resources */,
 				AC8432821C0E870A008B156E /* YHVolumeViewController.xib in Resources */,
 			);
@@ -452,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -464,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -46,6 +46,8 @@
 {
     self.viewRect = CGRectMake(0.0f, 0.0f, DEFAULT_CONTAINER_WIDTH, DEFAULT_CONTAINER_HEIGHT);
     
+    NSLog(@"%f, %f, %f, %f",self.viewRect.origin.x, self.viewRect.origin.y, self.viewRect.size.width, self.viewRect.size.height);
+    
     return [self initWithFrame:self.viewRect];
 }
 
