@@ -52,13 +52,20 @@
 {
     if (self.yhVolumeViewController == nil)
     {
+        /* Default Layout */
+        self.yhVolumeViewController = [[YHVolumeViewController alloc] init];
+        
+        /* Custom Layout
         self.yhVolumeViewController = [[YHVolumeViewController alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 414.0f, 30.0f)];
         self.yhVolumeViewController.vCellSpace = 3.0f;
         self.yhVolumeViewController.hCellSpace = 3.0f;
         self.yhVolumeViewController.indicatorColor = [UIColor yellowColor];
+        */
         
         [self.videoPlayContainer addSubview:self.yhVolumeViewController.view];
     }
+    
+    
 }
 
 - (void)configureLayout

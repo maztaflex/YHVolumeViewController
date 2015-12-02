@@ -156,7 +156,7 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             
             [UIView animateWithDuration:1.0f animations:^{
-//                self.volumeContainer.alpha = 0.0f;
+                self.volumeContainer.alpha = 0.0f;
             } completion:^(BOOL finished) {
                 
             }];
@@ -198,7 +198,7 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         
         [UIView animateWithDuration:1.0f animations:^{
-//            self.volumeContainer.alpha = 0.0f;
+            self.volumeContainer.alpha = 0.0f;
         } completion:^(BOOL finished) {
             
         }];
