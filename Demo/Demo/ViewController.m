@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  Demo
+//  YHVolumeViewControllerDemo
 //
-//  Created by DEV_TEAM1_IOS on 2015. 12. 2..
-//  Copyright © 2015년 DEV_TEAM1_IOS. All rights reserved.
+//  Created by Yonghwi Nam on 2015. 12. 2..
+//  Copyright © 2015년 Yonghwi Nam. All rights reserved. https://github.com/maztaflex/YHVolumeViewController
 //
 
 #import "ViewController.h"
@@ -31,6 +31,7 @@
 {
     [super viewDidLoad];
     
+    /* Set movie player view */
     [self configureLayout];
 }
 
@@ -41,6 +42,7 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    /* Add YHVolueViewController to some subview(videoPlayContainer) */
     [self addYHVolumeViewController];
 }
 
