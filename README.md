@@ -1,8 +1,8 @@
 YHVolumeViewController
 =======================
-I created a simple volume view controller like 'Snapchat'.
-Not yet, unsupported Cocospods but as soon as possible will do it.
-I hope that it'll help you. ;)
+#### I created a simple volume view controller like 'Snapchat'.
+#### Not yet, unsupported Cocospods but as soon as possible will do it.
+#### I hope that it'll help you. ;)
 
 ## Features
 - Customizing layout and colors
