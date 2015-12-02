@@ -5,9 +5,9 @@ I created a volume view controller like 'Snapchat'.
 This is first time that I made it
 
 ## Features
-- Customizing layoout and colors
+- Customizing layout and colors
 
-## Screen shots
+## Screenshots
 ![screen shot1](https://github.com/maztaflex/YHVolumeViewController/blob/master/Assets/screenshot_00.jpg)
 ![screen shot2](https://github.com/maztaflex/YHVolumeViewController/blob/master/Assets/screenshot_01.jpg)
 
@@ -17,8 +17,7 @@ This is first time that I made it
 - ARC
 
 ## Installation
-
-#import "YHVolumeViewController.h"
+import "YHVolumeViewController.h"
 
 
 ## Usage
